@@ -14,3 +14,34 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.main{
+  height: 100vh;
+  margin: auto;
+  padding: 0 20px
+}
+
+@media only screen and (max-width: 768px) {
+  .logo {
+    display: none;
+  }
+  .links{
+    display: grid;
+    grid-row-gap: 10px
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .main {
+    display: flex !important;
+  }
+  .links{
+    display: grid;
+    grid-template-columns: 120px 120px;
+    grid-column-gap: 10px
+  }
+}
+
+.links{
+  color: #0038FF
+}
