@@ -25,7 +25,7 @@ export default function Home() {
           </p>
           <div className="links">
             <div><a href="https://www.linkedin.com/in/andrealemonroy/">Ir a mi LinkedIn</a></div>
-            <div><a href="https://medium.com/@andrealemonroy">Ver mis artículos <i className="fas fa-arrow-right"></i> </a></div>
+            <div><a href="https://medium.com/@andrealemonroy">Ver mis artículos</a></div>
           </div>
         </div>
         {/* <div className={styles.grid}></div> */}
